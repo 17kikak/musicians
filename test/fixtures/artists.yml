@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  genre: MyString
+  age: 2019-03-15
+  net_worth_in_cents: 1
+  number_of_albums: 1
+
+two:
+  name: MyString
+  genre: MyString
+  age: 2019-03-15
+  net_worth_in_cents: 1
+  number_of_albums: 1

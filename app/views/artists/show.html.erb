@@ -1,0 +1,34 @@
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @artist.name %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @artist.genre %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @artist.age %>
+</p>
+
+<p>
+  <strong>Net worth in cents:</strong>
+  <%= @artist.net_worth_in_cents %>
+</p>
+
+<p>
+  <strong>Number of albums:</strong>
+  <%= @artist.number_of_albums %>
+</p>
+<p>
+  <strong>Profile Image:</strong>
+  <%= @artist.profile_image_url %>
+</p>
+
+<%= link_to 'Edit', edit_artist_path(@artist) %> |
+<%= link_to 'Back', artists_path %>
