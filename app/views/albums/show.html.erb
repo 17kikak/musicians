@@ -20,5 +20,10 @@
   <%= @album.album_cover_url %>
 </p>
 
+<p>
+  <strong>Artist Id:</strong>
+  <%= @album.artist_id %>
+</p>
+
 <%= link_to 'Edit', edit_album_path(@album) %> |
 <%= link_to 'Back', albums_path %>

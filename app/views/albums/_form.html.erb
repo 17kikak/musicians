@@ -31,6 +31,11 @@
     <%= form.text_field :album_cover_url, id: :album_album_cover_url %>
   </div>
 
+  <div class="field">
+    <%= form.label :artist_id %>
+    <%= form.number_field :artist_id, id: :album_artist_id %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>

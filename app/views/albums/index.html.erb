@@ -9,6 +9,7 @@
       <th>Release date</th>
       <th>Number of songs</th>
       <th>Album cover url</th>
+      <th>Artist Id</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -20,6 +21,7 @@
         <td><%= album.release_date %></td>
         <td><%= album.number_of_songs %></td>
         <td><%= album.album_cover_url %></td>
+        <td><%= album.artist_id %></td>
         <td><%= link_to 'Show', album %></td>
         <td><%= link_to 'Edit', edit_album_path(album) %></td>
         <td><%= link_to 'Destroy', album, method: :delete, data: { confirm: 'Are you sure?' } %></td>
